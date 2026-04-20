@@ -1,0 +1,128 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'AXIOM X1',
+    subtitle: 'E-commerce · 3D Product Page',
+    desc: 'Cinematic mechanical keyboard product page. Real-time 3D model, RGB particle system, GSAP scroll storytelling.',
+    tags: ['React', 'Three.js', 'GSAP', 'Tailwind'],
+    color: '#00F5D4',
+    bg: 'linear-gradient(135deg, #050510 0%, #0a0a2a 100%)',
+    link: 'https://keyboardrgb.netlify.app/',
+    year: '2025',
+  },
+  {
+    id: 2,
+    title: 'SoundSphere',
+    subtitle: 'Interactive · 3D Headphone Experience',
+    desc: 'Immersive 3D product showcase. WebGL model viewer, ambient visualisation, cinematic scroll.',
+    tags: ['React', 'R3F', 'Three.js', 'GSAP'],
+    color: '#9B5DE5',
+    bg: 'linear-gradient(135deg, #060510 0%, #180a30 100%)',
+    link: 'https://headphone3d.netlify.app/',
+    year: '2025',
+  },
+  {
+    id: 3,
+    title: 'Nexus',
+    subtitle: 'Dashboard · E-commerce Admin Panel',
+    desc: 'Full-featured admin dashboard — live charts, order management, customer analytics.',
+    tags: ['React', 'Recharts', 'GSAP', 'Tailwind'],
+    color: '#6366f1',
+    bg: 'linear-gradient(135deg, #080810 0%, #10101e 100%)',
+    link: '',
+    year: '2025',
+  },
+  {
+    id: 4,
+    title: 'AD Café',
+    subtitle: 'Landing Page · Local Business',
+    desc: 'Premium café website — smooth animations, menu showcase, reservation UI.',
+    tags: ['React', 'GSAP', 'Tailwind'],
+    color: '#FF5C00',
+    bg: 'linear-gradient(135deg, #150800 0%, #2a1000 100%)',
+    link: 'https://adcafe.netlify.app/',
+    year: '2024',
+  },
+  {
+    id: 5,
+    title: 'Briefly',
+    subtitle: 'SaaS · Marketing Landing Page',
+    desc: 'High-converting SaaS page — animated pricing toggle, interactive demo stepper, CTA flows.',
+    tags: ['React', 'GSAP', 'Tailwind'],
+    color: '#FF2D9B',
+    bg: 'linear-gradient(135deg, #100510 0%, #1e0818 100%)',
+    link: '',
+    year: '2025',
+  },
+]
+
+export const services = [
+  { icon: '✦', title: 'Landing Pages', desc: 'Scroll-animated pages for startups, launches, and local businesses. Designed to convert.', price: 'From $150', color: '#FF5C00' },
+  { icon: '◈', title: 'E-commerce Pages', desc: '3D product showcases and purchase flows that make people actually want to buy.', price: 'From $250', color: '#9B5DE5' },
+  { icon: '⬡', title: '3D & Interactive Web', desc: 'WebGL experiences, Three.js models, particle systems, scroll-driven storytelling.', price: 'From $300', color: '#00A8FF' },
+  { icon: '▦', title: 'Admin Dashboards', desc: 'Custom analytics panels with live charts. Connectable to Shopify, Google Sheets.', price: 'From $200', color: '#6366f1' },
+  { icon: '❋', title: 'Figma to Frontend', desc: 'Pixel-perfect React builds from your design file. Animated, responsive, production-ready.', price: 'From $120', color: '#FF2D9B' },
+  { icon: '◎', title: 'Backend Integration', desc: 'Connect to APIs, Google Sheets, or lightweight Node.js backends. Forms, CMS, data.', price: 'From $180', color: '#ccff00' },
+]
+
+export const skills = [
+  { name: 'HTML & CSS',    level: 90, color: '#FF5C00' },
+  { name: 'JavaScript',   level: 72, color: '#ccff00' },
+  { name: 'React',        level: 75, color: '#00A8FF' },
+  { name: 'Three.js',     level: 68, color: '#9B5DE5' },
+  { name: 'GSAP',         level: 74, color: '#FF2D9B' },
+  { name: 'Tailwind CSS', level: 85, color: '#00F5D4' },
+  { name: 'Vite',         level: 78, color: '#ccff00' },
+  { name: 'Figma',        level: 90, color: '#FF5C00' },
+  { name: 'Git / GitHub', level: 90, color: '#6366f1' },
+  { name: 'Node.js',      level: 35, color: '#22c55e' },
+]
+
+export const testimonials = [
+  {
+    text: "Shivam delivered our café website in under a week. The animations are stunning — customers literally mention the website when they walk in. Exactly what we envisioned, but better.",
+    name: 'Rahul Agarwal',
+    role: 'Founder, BrewHouse Café',
+    avatar: 'RA',
+    color: '#FF5C00',
+    project: 'AD Café',
+  },
+  {
+    text: "We needed a SaaS landing page fast. Shivam nailed the design and the GSAP animations made our demo section feel premium. Delivered on time, zero revisions needed.",
+    name: 'Neha Kapoor',
+    role: 'Product Manager, TechLaunch',
+    avatar: 'NK',
+    color: '#9B5DE5',
+    project: 'Briefly SaaS',
+  },
+  {
+    text: "The 3D product viewer changed our conversion entirely. Bounce rate dropped 40% and time on page tripled. Seriously impressive technical skill for a freelancer.",
+    name: 'Vikram Singh',
+    role: 'CEO, AudioNova',
+    avatar: 'VS',
+    color: '#00A8FF',
+    project: 'SoundSphere 3D',
+  },
+  {
+    text: "I hired Shivam for our e-commerce product page. The result was beyond professional — the attention to detail on mobile responsiveness and load speed was incredible. Would hire again without hesitation.",
+    name: 'Priya Malhotra',
+    role: 'Co-Founder, StyleNest',
+    avatar: 'PM',
+    color: '#FF2D9B',
+    project: 'E-commerce Page',
+  },
+  {
+    text: "Shivam built our admin dashboard and connected it to our live data in less than 10 days. Clean code, great communication, and the final product looks like something from a funded startup.",
+    name: 'Aryan Mehta',
+    role: 'CTO, LogiFlow',
+    avatar: 'AM',
+    color: '#ccff00',
+    project: 'Nexus Dashboard',
+  },
+]
+
+export const stack = [
+  'React', '✦', 'Three.js', '✦', 'GSAP', '✦', 'Tailwind', '✦',
+  'JavaScript', '✦', 'WebGL', '✦', 'Vite', '✦', 'Figma', '✦',
+  'Node.js', '✦', 'R3F', '✦', 'CSS3', '✦', 'REST APIs', '✦',
+]
