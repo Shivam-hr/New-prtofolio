@@ -10,7 +10,7 @@ function scramble(el, original, duration = 380) {
   const totalFrames = Math.round(duration / 36)
   const id = setInterval(() => {
     el.textContent = original.split('').map((ch, i) => {
-      if (i < Math.floor((frame / totalFrames) * original.length)) return ch
+      if (i < Math.floor((frame3 / totalFrames) * original.length)) return ch
       return ch === ' ' ? ' ' : CHARS[Math.floor(Math.random() * CHARS.length)]
     }).join('')
     frame++
@@ -150,16 +150,30 @@ export default function Projects() {
               }}
             >
               {/* Center decorative element */}
-              <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
-                <div style={{ textAlign: 'center' }}>
-                  <div style={{ width: 80, height: 80, borderRadius: '50%', border: `2px solid ${p.color}25`, margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
-                    <div style={{ width: 36, height: 36, borderRadius: '50%', background: `${p.color}18`, border: `1px solid ${p.color}40` }} />
-                    <div style={{ position: 'absolute', inset: -14, borderRadius: '50%', border: `1px dashed ${p.color}15`, animation: 'spin 14s linear infinite' }} />
-                  </div>
-                  <div style={{ width: 100, height: 2, background: `${p.color}35`, borderRadius: 1, margin: '0 auto 6px' }} />
-                  <div style={{ width: 60, height: 2, background: `${p.color}18`, borderRadius: 1, margin: '0 auto' }} />
-                </div>
-              </div>
+            <div
+  style={{
+    position: 'absolute',
+    inset: 0,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: '20px',
+    pointerEvents: 'none'
+  }}
+>
+  <img
+    src={p.image}
+    alt={p.title}
+    style={{
+      width: '92%',
+      height: '72%',
+      objectFit: 'cover',
+      borderRadius: '18px',
+      boxShadow: '0 25px 50px rgba(0,0,0,0.45)',
+      border: '1px solid rgba(255,255,255,0.08)'
+    }}
+  />
+</div>
 
               {/* Watermark number */}
               <div style={{ position: 'absolute', top: -8, right: 0, fontWeight: 700, fontSize: 'clamp(80px,12vw,140px)', color: 'transparent', WebkitTextStroke: '1px rgba(255,255,255,0.05)', lineHeight: 1, pointerEvents: 'none', userSelect: 'none' }}>

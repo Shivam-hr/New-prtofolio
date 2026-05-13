@@ -13,8 +13,8 @@ const lines = [
 ]
 
 const facts = [
-  { k: 'Degree', v: 'B.Tech CSE (Cloud) — Year 2' },
-  { k: 'Freelancing', v: 'Since 2024' },
+  { k: 'Degree', v: 'B.Tech CSE (Cloud) — Year 3' },
+  { k: 'Freelancing', v: 'Since 2023' },
   { k: 'Speciality', v: '3D + Motion Frontend' },
   { k: 'Learning', v: 'Node.js + MongoDB' },
   { k: 'Response time', v: '< 12 hours' },
