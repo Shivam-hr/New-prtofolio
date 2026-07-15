@@ -64,7 +64,7 @@
 
   export const services = [
     { icon: '✦', title: 'Landing Pages', desc: 'Scroll-animated pages for startups, launches, and local businesses. Designed to convert.', price: 'From $150', color: '#FF5C00' },
-    { icon: '◈', title: 'E-commerce Pages', desc: '3D product showcases and purchase flows that make people actually want to buy.', price: 'From $250', color: '#9B5DE5' },
+    { icon: '◈', title: 'E-commerce Pages', desc: '3D product showcases and purchase flows that make people actually want to buy.', price: 'From $500', color: '#9B5DE5' },
     { icon: '⬡', title: '3D & Interactive Web', desc: 'WebGL experiences, Three.js models, particle systems, scroll-driven storytelling.', price: 'From $300', color: '#00A8FF' },
     { icon: '▦', title: 'Admin Dashboards', desc: 'Custom analytics panels with live charts. Connectable to Shopify, Google Sheets.', price: 'From $200', color: '#6366f1' },
     { icon: '❋', title: 'Figma to Frontend', desc: 'Pixel-perfect React builds from your design file. Animated, responsive, production-ready.', price: 'From $120', color: '#FF2D9B' },
